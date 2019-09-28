@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" href="search.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav>
+    <li>Profile</li>
+    <li>Search</li>
+  </nav>
+  <Section role=main>
+    <header>
+      <h2>Results for Durham, NC</h2>
+    </header>
+
+    <Ul>
+      <li class=compact>
+        <h2>HiWire Brewing</h2>
+        <span>800 Taylor St.</span>
+        <span>Durham, NC 27701</span>
+        <span>Overall: 1/5</span>
+        <span>Price: $$$$</span>
+        <button>Expand</button>
+      </li>
+      <li class=expanded>
+        <h2>Bull McCabe's</h2>
+        <span>427 W Main St</span>
+        <span>Durham, NC</span>
+        <span>Overall: 5/5</span>
+        <span>Price: $$</span>
+        <div class="amenities">
+          <li>Play Area</li>
+          <li>Toys (5+)</li>
+          <li>Dogs Welcome</li>
+          <li>Stroller Accessible</li>
+          <li>Changing Table</li> 
+        </div>
+        <div class="review">
+          <h3>One of the Bull City's Best!</h3>
+          <span>Kelley Breeze - SuperUser</span>
+          <span>Date visited: 1/28/2014</span>
+          <p>We love Bull McCabes! This was a favorite before we had our little one and I can recommend it highly enough! We go every friday with some friends from work who also have kids, and it is always easy to get in and out of. They also have changing tables and the staff is super friendly (and quick!). They have a great outdoor area with a big connect-four game and a big fenced-in area for kids to play in, while still within sight of parents. Best way to wrap up a work week!</p>
+        </div>
+        <button>Thumbs up <span>4010</span></button>
+        <button>Thumbs down<span>1</span></button>
+        <h4>What others are saying about Kelley's Review</h4>
+        <p>Nicole Popovich</p>
+        <p>I don't know what she is talking about. Disclaimer: I drink refrigerator-aged IPA's, so my opinion doesn't count. </p>
+
+
+      </li>
+    </Ul>
+  </Section>
+  <aside>
+    <form action="">
+      <label for="Sort">Sort by:
+        <select name="Sort" id="Sort">
+          <option value="">...</option>
+          <option value="overall rating">Overall Rating</option>
+          <option value="price">Price</option>
+        </select>
+      </label>
+      <label for="Filter">Filter results by: 
+        <select name="filter" id="filter">
+          <option value="">...</option>
+          <option value="type">type</option>
+          <option value=""></option>
+        </select>
+      </label>
+    </form>
+  </aside>
+
+  
+</body>
+</html>
