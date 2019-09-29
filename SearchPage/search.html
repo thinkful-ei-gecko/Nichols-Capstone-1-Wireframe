@@ -10,70 +10,83 @@
 </head>
 <body>
   <nav>
-    <li>Profile</li>
-    <li>Search</li>
+    <h2>NAV</h2>
   </nav>
-  <Section role=main>
+  <section class="filter-search">
+    <button>Refine search</button>
+    <p>Note: This form will display when "refine search" is clicked</p>
+      <form action="">
+          <label for="Search">New Search
+            <input type="text" placeholder="Search">
+          </label>
+          <label for="Sort">Sort by:
+            <select name="Sort" id="Sort">
+              <option value="">select</option>
+              <option value="overall rating">Overall Rating</option>
+              <option value="price">Price</option>
+            </select>
+          </label>
+          <label for="Filter">Filter results by: 
+            <select name="filter" id="filter">
+              <option value="">Select</option>
+              <option value="type">type</option>
+              <option value="">Minimum Rating</option>
+              <option value="">Amenities</option>
+            </select>
+          </label>
+          <button>Search</button>
+          <button>Cancel</button>
+        </form>
+  </section>
+  <Section class= "main" role=main>
     <header>
       <h2>Results for Durham, NC</h2>
     </header>
 
     <Ul>
-      <li class=compact>
+      <li class="result compact">
         <h2>HiWire Brewing</h2>
-        <span>800 Taylor St.</span>
-        <span>Durham, NC 27701</span>
-        <span>Overall: 1/5</span>
-        <span>Price: $$$$</span>
+        <p>800 Taylor St. Durham, NC 27701</p>
+        <p>Overall: 1/5</p>
+        <p>Price: $$$$</p>
         <button>Expand</button>
       </li>
-      <li class=expanded>
+      <li class="result expanded">
         <h2>Bull McCabe's</h2>
-        <span>427 W Main St</span>
-        <span>Durham, NC</span>
-        <span>Overall: 5/5</span>
-        <span>Price: $$</span>
+        <p>427 W Main St. Durham, NC 27704</p>
+        <p>Overall: 5/5</p>
+        <p>Price: $$</p>
+        <p>Type: Bar/Brewery</p>
+        <p>Volume Level: Restaurant</p>
         <div class="amenities">
-          <li>Play Area</li>
-          <li>Toys (5+)</li>
-          <li>Dogs Welcome</li>
-          <li>Stroller Accessible</li>
-          <li>Changing Table</li> 
+          <h3>Amenities</h3>
+          <ul>
+            <li>Play Area</li>
+            <li>Toys (5+)</li>
+            <li>Dogs Welcome</li>
+            <li>Stroller Accessible</li>
+            <li>Changing Table</li> 
+            <li>Outdoor Seating</li>
+          </ul>
         </div>
+        <h3>What people are saying: </h3>
         <div class="review">
-          <h3>One of the Bull City's Best!</h3>
-          <span>Kelley Breeze - SuperUser</span>
-          <span>Date visited: 1/28/2014</span>
+          <h4>One of the Bull City's Best!</h4>
+          <p>Kelley Breeze - SuperUser</p>
+          <p>Date visited: 1/28/2014</p>
+          <div class="reviewText">
           <p>We love Bull McCabes! This was a favorite before we had our little one and I can recommend it highly enough! We go every friday with some friends from work who also have kids, and it is always easy to get in and out of. They also have changing tables and the staff is super friendly (and quick!). They have a great outdoor area with a big connect-four game and a big fenced-in area for kids to play in, while still within sight of parents. Best way to wrap up a work week!</p>
+          </div>
         </div>
-        <button>Thumbs up <span>4010</span></button>
-        <button>Thumbs down<span>1</span></button>
-        <h4>What others are saying about Kelley's Review</h4>
-        <p>Nicole Popovich</p>
-        <p>I don't know what she is talking about. Disclaimer: I drink refrigerator-aged IPA's, so my opinion doesn't count. </p>
-
-
+        <div class="votes">
+          <p>Was this review helpful?</p>
+          <button>Thumbs up <span>4010</span></button>
+          <button>Thumbs down<span>1</span></button>
+        </div>
       </li>
     </Ul>
   </Section>
-  <aside>
-    <form action="">
-      <label for="Sort">Sort by:
-        <select name="Sort" id="Sort">
-          <option value="">...</option>
-          <option value="overall rating">Overall Rating</option>
-          <option value="price">Price</option>
-        </select>
-      </label>
-      <label for="Filter">Filter results by: 
-        <select name="filter" id="filter">
-          <option value="">...</option>
-          <option value="type">type</option>
-          <option value=""></option>
-        </select>
-      </label>
-    </form>
-  </aside>
+
 
   
 </body>
