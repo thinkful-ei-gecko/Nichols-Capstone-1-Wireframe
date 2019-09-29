@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  height: 35px;
+  background-color: lightgrey;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 80%;
+  margin: 10px auto;
+}
+
+form input, select, label {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+}
+
+form input, select {
+  height: 35px;
+  width: 100%;
+}
+
+label {
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  width: 100%;
+  text-align: center;
+}
+
+.amenities input {
+  height: 20px;
+  width: auto;
+}
+
+.amenities {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.amenities label {
+  word-wrap: break-word;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.amenities input {
+  height: 20px;
+  vertical-align: middle;
+  margin: 0;
+}
+
+input[type=textarea] {
+  height: 150px;
+  width: 100%;
+}
+
+form button {
+  display: block;
+  width: 40%;
+  height: 30px;
+  margin: 20px auto;
+}
+
+.review label {
+  text-align: left;
+}
+.review input {
+  height: 75px;
+}
+
+a {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding: 5px;
+}

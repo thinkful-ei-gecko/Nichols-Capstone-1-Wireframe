@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
     />
-    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="addvenue.css">
     <title>Document</title>
   </head>
   <body>
@@ -18,19 +18,27 @@
 
     <section class="main">
       <header>
-        <h2>Add A Review</h2>
+        <h2>Add A Venue</h2>
       </header>
       <form action="">
         <fieldset>
           <legend>
             <label for="Venue">Venue/Event Name
-              <select name="venue" id="venue">
-                <option value="">Select a venue</option>
-              </select>
+              <input type="text" name="Venue" id="Venue" placeholder="ex: Bull McCabe's">
             </label>
-              <p>Don't see your venue or event?</p>
-              <a href='../AddVenue/addvenue.html'>Click here to add a new venue/event</a>
-            <label for="type">Type
+            
+            <label for="Address">Street Address
+              <input type="text" name="Address" placeholder="123 Main St.">
+            </label>
+            <label for="City">City
+              <input type="text" name="City" placeholder="ex: Durham">
+            </label>
+            <label for="State">State
+              <input type="text" name="State" placeholder="ex: NC" maxlength="2">
+            </label>
+
+            
+            <label for="type">Type of venue/event
               <select name="type" id="type">
                 <option value="">Please select</option>
                 <option value="Restaurant">Restaurant</option>
