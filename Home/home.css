@@ -31,10 +31,28 @@ nav li {
 input {
   display: block;
   margin: 10px auto;
+  width: 60%;
 }
 
 .hero {
   background-color: lightgrey;
-  height: 200px;
+  height: auto;
   text-align: center;
+  padding: 20px;
+}
+
+.form {
+  margin: 25px auto;
+}
+
+.form p {
+  margin: 15px auto;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: gray;
+  width: 100%;
 }
