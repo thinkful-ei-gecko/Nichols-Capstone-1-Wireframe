@@ -113,9 +113,10 @@ header {
   padding: 5px;
 }
 
-form button {
+button {
   display: block;
-  width: 40%;
+  width: 50%;
+  word-wrap: break-word;
   height: 30px;
   margin: 20px auto;
 }
