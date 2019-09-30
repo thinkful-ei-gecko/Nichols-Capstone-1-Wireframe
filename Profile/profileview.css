@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+nav {
+  text-align: center;
+  height: 35px;
+  background-color: lightgrey;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+form input, select, label {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+}
+
+form input, select {
+  height: 35px;
+  width: 100%;
+}
+
+label {
+  text-align: center;
+}
+.main {
+  width: 80%;
+  margin: 20px auto;
+}
+
+header {
+  margin: 20px auto;
+}
+
+.result { 
+  margin: 25px auto 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.result p {
+  margin: 5px auto;
+}
+
+.amenities {
+  margin-bottom: 20px;
+}
+
+.amenities ul {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.amenities li {
+  margin: 5px auto;
+
+}
+
+.review h4{
+  margin: 10px auto;
+}
+
+.reviewText {
+  margin: 10px auto;
+  line-height: 1.3em;
+}
+
+.votes {
+  display: block;
+  margin: 10px auto;
+  width: auto;
+  text-align: center;
+}
+
+.votes button {
+  width: 50%;
+  height: 35px;
+  margin: 10px auto;
+}
+
+.votes button > span {
+  margin: 0 15px;
+}
+
+.filter-search  {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.filter-search button {
+  height: 35px;
+  width: 60%;
+  padding: 5px;
+}
+
+form button {
+  display: block;
+  width: 40%;
+  height: 30px;
+  margin: 20px auto;
+}
