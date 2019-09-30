@@ -64,6 +64,10 @@ form button {
   margin: 20px auto;
 }
 
+form p {
+  text-align: center;
+}
+
 footer {
   position: absolute;
   bottom: 0;

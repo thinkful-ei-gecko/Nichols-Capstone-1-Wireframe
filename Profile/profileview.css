@@ -8,15 +8,26 @@
 }
 
 
-
 nav {
   text-align: center;
   height: 35px;
-  background-color: lightgrey;
+  background-color: gray;
   width: 100%;
   margin: 0;
   padding: 0;
 }
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline;
+  padding: 5px;
+}
+
 
 form input, select, label {
   display: block;

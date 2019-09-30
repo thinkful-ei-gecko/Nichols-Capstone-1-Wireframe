@@ -11,14 +11,27 @@ header {
   text-align: center;
 }
 
+
 nav {
   text-align: center;
   height: 35px;
-  background-color: lightgrey;
+  background-color: gray;
   width: 100%;
   margin: 0;
   padding: 0;
 }
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline;
+  padding: 5px;
+}
+
 
 .main {
   width: 80%;
@@ -93,11 +106,6 @@ form button {
   height: 75px;
 }
 
-a {
-  display: block;
-  margin: 20px auto;
-  width: 80%;
-  background-color: lightgrey;
-  border-radius: 3px;
-  padding: 5px;
+h3 {
+  text-align: center;
 }
